@@ -4,7 +4,7 @@ import classNames from 'classnames'
 import Column from '../containers/Column'
 
 const Board = props => {
-	const { className, rows, columns, player } = props
+	const { className, columns, player } = props
 	const classNameComposed = classNames(['board', `player-${player}-turn`, className])
 	
 	return (
