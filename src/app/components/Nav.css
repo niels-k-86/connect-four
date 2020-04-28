@@ -1,0 +1,27 @@
+.nav-list {
+	padding-left: 0;
+	list-style-type: none;
+	display: flex;
+	align-items: baseline;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+	.nav-list li:after {
+		content: ' | ';
+		white-space: pre;
+	}
+
+	.nav-list li:last-child:after {
+		content: none;
+	}
+
+.nav-list a {
+	color: currentColor;
+	transition: color 0.2s ease-in-out;
+}
+
+.nav-list a:hover,
+.nav-list a:focus {
+	color: #e01f26; /* AON Red! */
+}

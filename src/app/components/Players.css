@@ -1,0 +1,35 @@
+.player {
+	display: flex;
+	align-items: center;
+	text-align: center;
+}
+
+.player + .player {
+	margin-top: 0.5rem;
+}
+
+.player:before {
+	content: '';
+	display: block;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 9999px;
+	margin-right: 0.5rem;
+	box-sizing: border-box;
+}
+
+.player-1:before {
+	background-color: yellow;
+}
+
+.player-2:before {
+	background-color: red;
+}
+
+.player--current {
+	font-weight: bold;
+}
+
+.player--current:before {
+	border: 1px solid #000;
+}

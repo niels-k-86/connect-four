@@ -1,0 +1,21 @@
+.chip {
+	width: 100%;
+	padding: 10%;
+	cursor: pointer;
+}
+
+.chip:before {
+	content: '';
+	display: block;
+	padding-bottom: 100%;
+	border-radius: 50%;
+	background-color: #666; /* All hail Satan! */
+}
+
+.chip--player-1:before {
+	background-color: yellow;
+}
+
+.chip--player-2:before {
+	background-color: red;
+}
