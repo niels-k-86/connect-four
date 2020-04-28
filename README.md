@@ -1,6 +1,6 @@
 ## Connect four
 
-This is a React imlementation of the Connect Four game.
+This is a React implementation of the Connect Four game.
 
 ## React Redux
 
